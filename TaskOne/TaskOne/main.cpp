@@ -11,12 +11,9 @@ using namespace std;
 
 int main5 ()
 {
-    int a;
-    int z;
-    cout << "Введите перкое целое число : ";
-    cin >> a;
-    cout << "Введите второе целое число : ";
-    cin >> z;
+    int a, z;
+    cout << "Введите два целых числа : ";
+    cin >> a >> z;
     cout << a << "*" << z << "=" << a*z << endl;
     cout << "a*z=" << a*z << endl;
     cout << "a-z=" << a-z << endl;
